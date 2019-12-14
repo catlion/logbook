@@ -1,0 +1,4 @@
+baseURL = "https://logbook.ak0.org/"
+languageCode = "en-us"
+title = "Programmer's logbook"
+them = "binario"
