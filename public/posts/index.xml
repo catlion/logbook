@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Programmer&#39;s logbook</title>
+    <link>https://logbook.ak0.org/posts/</link>
+    <description>Recent content in Posts on Programmer&#39;s logbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jan 2020 08:29:50 +0300</lastBuildDate>
+    
+	<atom:link href="https://logbook.ak0.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command to update all dotnet global tools (bash)</title>
+      <link>https://logbook.ak0.org/posts/2020-01-17-dotnet/</link>
+      <pubDate>Fri, 17 Jan 2020 08:29:50 +0300</pubDate>
+      
+      <guid>https://logbook.ak0.org/posts/2020-01-17-dotnet/</guid>
+      <description>dotnet tool list -g | awk &#39;NR&amp;gt;2 {print $1}&#39; | while read p; do dotnet tool update -g $p; done </description>
+    </item>
+    
+  </channel>
+</rss>
